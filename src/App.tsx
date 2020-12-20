@@ -1,7 +1,13 @@
-import React from "react";
+import React from 'react'
+import { EditableDiv } from './components'
 
 const App = () => {
-  return <div>Hello world</div>;
-};
+  return (
+    <div>
+      <h3>Hello world</h3>
+      <EditableDiv />
+    </div>
+  )
+}
 
-export default App;
+export default App
